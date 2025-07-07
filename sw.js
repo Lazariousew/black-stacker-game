@@ -1,4 +1,4 @@
-const CACHE_NAME = 'block-stacker-v2'; // Bump version to ensure update
+const CACHE_NAME = 'block-stacker-v3'; // Bump version to ensure update
 
 const FILES_TO_CACHE = [
   './',
@@ -13,7 +13,7 @@ const FILES_TO_CACHE = [
   'components/Modal.tsx',
   'components/Controls.tsx',
   'manifest.json',
-  'vite.svg',
+  'icon.svg',
 ];
 
 self.addEventListener('install', (event) => {
