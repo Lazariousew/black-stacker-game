@@ -1,14 +1,16 @@
 {
   "short_name": "Block Stacker",
   "name": "Block Stacker",
+  "id": "/black-stacker-game/",
   "icons": [
     {
-      "src": "./vite.svg",
+      "src": "vite.svg",
       "type": "image/svg+xml",
       "sizes": "192x192 512x512"
     }
   ],
   "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "theme_color": "#0f172a",
   "background_color": "#0f172a",
