@@ -1,19 +1,11 @@
-const CACHE_NAME = 'block-stacker-v3'; // Bump version to ensure update
+const CACHE_NAME = 'block-stacker-v4'; // Увеличил версию для обновления
 
+// Файлы, которые реально существуют на вашем опубликованном сайте
 const FILES_TO_CACHE = [
   './',
   'index.html',
-  'index.tsx',
-  'App.tsx',
-  'types.ts',
-  'constants.ts',
-  'components/Board.tsx',
-  'components/Cell.tsx',
-  'components/InfoPanel.tsx',
-  'components/Modal.tsx',
-  'components/Controls.tsx',
   'manifest.json',
-  'icon.svg',
+  'icon.svg'
 ];
 
 self.addEventListener('install', (event) => {
@@ -27,9 +19,6 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Use a robust cache-first strategy.
-  // It responds from the cache if the resource is found,
-  // otherwise, it fetches from the network.
   event.respondWith(
     caches.match(event.request)
       .then((response) => {
