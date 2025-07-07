@@ -1,0 +1,5 @@
+{
+  "name": "Block Stacker",
+  "description": "A classic falling blocks game, similar to Tetris, built with React and Tailwind CSS. The goal is to clear horizontal lines by arranging the falling blocks.",
+  "requestFramePermissions": []
+}
