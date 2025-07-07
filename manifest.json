@@ -3,7 +3,7 @@
   "name": "Block Stacker",
   "icons": [
     {
-      "src": "/vite.svg",
+      "src": "./vite.svg",
       "type": "image/svg+xml",
       "sizes": "192x192 512x512"
     }

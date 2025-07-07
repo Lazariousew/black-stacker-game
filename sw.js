@@ -1,19 +1,19 @@
 const CACHE_NAME = 'block-stacker-v1';
 
 const FILES_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/index.tsx',
-  '/App.tsx',
-  '/types.ts',
-  '/constants.ts',
-  '/components/Board.tsx',
-  '/components/Cell.tsx',
-  '/components/InfoPanel.tsx',
-  '/components/Modal.tsx',
-  '/components/Controls.tsx',
-  '/manifest.json',
-  '/vite.svg',
+  './',
+  './index.html',
+  './index.tsx',
+  './App.tsx',
+  './types.ts',
+  './constants.ts',
+  './components/Board.tsx',
+  './components/Cell.tsx',
+  './components/InfoPanel.tsx',
+  './components/Modal.tsx',
+  './components/Controls.tsx',
+  './manifest.json',
+  './vite.svg',
 ];
 
 self.addEventListener('install', (event) => {
